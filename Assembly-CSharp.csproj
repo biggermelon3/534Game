@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{47525177-E0D5-0257-0B5F-8137737C2B06}</ProjectGuid>
+    <ProjectGuid>{DA544A41-4FAE-EDB7-CDA7-71B20CD38E46}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,11 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/MonoBundle/Addins/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/AFPC/Scripts/HUD.cs" />
-    <Compile Include="Assets/AFPC/Scripts/Hero.cs" />
     <Compile Include="Assets/AFPC/Scripts/Movement.cs" />
     <Compile Include="Assets/AFPC/Scripts/Overview.cs" />
     <Compile Include="Assets/AFPC/Scripts/Lifecycle.cs" />
+    <Compile Include="Assets/AFPC/Scripts/HUD.cs" />
+    <Compile Include="Assets/AFPC/Scripts/Hero.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SimpleSky/ReadMe.txt" />
@@ -759,11 +759,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B1E7C4CD-96FB-3241-617C-49A764E85AE9}</Project>
+      <Project>{E30094E2-A9ED-C0B5-1D1B-722C079F8651}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{137C2DA1-C0D9-8DAE-CC6F-B41CBF5999C1}</Project>
+      <Project>{970A334A-F278-6810-A66C-472EE1F15C45}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
